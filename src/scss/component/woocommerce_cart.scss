@@ -1,0 +1,157 @@
+.woocommerce a.remove{
+    margin: 0 auto;
+}
+.coupon{
+    .button{
+        color: #12163E;
+        background: #12163E80;
+    }
+}
+
+
+
+.shop_table{
+    th{
+        color: #12163E;
+        text-align: center;
+
+    }
+} 
+
+
+
+.wc-proceed-to-checkout{
+    a{
+        // width: 50%;
+        border-radius: 5px;
+        // padding: 1rem 2rem;
+        background:  #12163E !important;
+        color: #fff;
+        border: none;
+        font-family: $inter;
+        font-size: 18px;
+        font-weight: 500;
+        // max-width: 250px;
+        // width: 100%;
+        @media (max-width:$lg) {
+            font-size: 14px;  
+            // padding: 1rem 1.5rem;          
+        }
+    }
+}
+
+
+
+.woocommerce{
+    max-width: 1300px;
+    margin: 0 auto;
+ .quantity{
+    .qty{
+        width: 8em;
+} 
+}
+}
+
+
+form.woocommerce-cart-form{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 ;
+    padding-top: 0;
+    @media (max-width:$md) {
+        padding: 20px;
+        
+    }
+}
+.cart-collaterals{
+    max-width: 1250px;
+    width: 100%;
+    padding: 0 40px;
+    display: none;
+    @media (max-width:$md) {
+        padding: 0 20px;
+        
+    }
+    .cart_totals{
+        h2{
+            font-family: $inter;
+            font-size: 35px;
+            font-weight: 600;
+            color: #12163E;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.woocommerce table.shop_table_responsive tr, .woocommerce-page table.shop_table_responsive tr{
+    @media (max-width:$md) {
+        display: table !important;
+        gap: 20px;
+        height: 100px;
+        width: 100%;
+    }
+}
+.coupon{
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    @media (max-width:$sm) {
+        flex-direction: column;
+        margin-bottom:10px;
+        
+    }
+    input#coupon_code{
+        flex: 0 0 50%;
+        width: 100%;
+        width: 250px;
+        margin-right: 20px;
+        @media (max-width:$sm) {
+        
+            margin: 20px 0;
+        }
+    }
+    
+}
+.woocommerce table.shop_table {
+    thead{
+        th{
+            text-align: left;
+        }
+    }
+}
+
+
+
+
+.woocommerce-cart-form__cart-item{
+    max-height: 100px;
+    height: 100%;
+    tr{
+        height: 50px;
+        width: 50px;
+        text-align: center;
+  
+    td{
+        
+        @media (max-width:$md) {
+           flex: 0 0 20%;
+           flex-basis: calc(20% - 20px);
+        }
+     
+    }
+}
+  
+    td{
+        // text-align: center;
+        img{
+            width: 50px;
+        }
+       
+       
+        a{
+            color: #12163E;
+            text-decoration: none;
+        }
+    }
+}

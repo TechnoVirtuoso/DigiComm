@@ -1,1 +1,1 @@
-# DigiComm
+# Stature_Victor_WordpressTemplate

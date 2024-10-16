@@ -1,0 +1,150 @@
+
+
+
+body{
+    background-color: #F8F9FD;
+}
+
+.woocommerce{
+    .col2-set{
+        .col-1{
+            float: none;
+            width: 100%;
+        }
+        .col-2{
+            float: none;
+            width: 100%;
+        }
+
+    } 
+}  
+// , .woocommerce-page .col2-set .col-1
+
+.login_signup_form{
+    padding: 0 40px;
+    // align-items: center;
+    .wrap_login_signup_form{
+        display: flex;
+        justify-content: space-between;
+        
+        gap: 40px;
+        @media (max-width:$lg) {
+            align-items:center ;
+        flex-direction: column;
+            
+        }
+    }
+}
+.login,.signup{
+    flex: 0 0 50%;
+    width: 100%;
+    margin-top: 80px;
+    flex-basis: calc(50% - 40px);
+    .wrap_login_section,.wrap_signup_section{
+        max-width: 1000px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        // padding: 40px;
+        border-radius: 20px;
+        margin: 0 auto;
+        .main_heading{
+            margin-bottom: 0px;
+            h2{
+                font-family: $inter;
+                font-size: 50px;
+                font-weight: 700;
+                color: #12163E;
+                @media (max-width:$md) {
+                    font-size: 35px;
+                    
+                }
+            }
+           
+            // margin-bottom: 20px;
+        }
+        .woocommerce-privacy-policy-text{
+            p{
+                font-size: 15px;
+                @media (max-width:$sm) {
+                    font-size: 13px;
+                }
+
+            }
+        }
+        .submit_btn{
+            button{
+                width: 100%;
+                background: #12163E;
+                border-radius: 5px;
+                color: #ffff;
+                padding: 1em 1.5em;
+                margin-top: 20px;
+            }
+        }
+        .login_form{
+            width: 100%;
+            
+            .forgot_password{
+                font-size: 13px;
+            }
+            .checkbox{
+               
+                label{
+                    display: flex;
+                    font-family: $inter;
+                    font-size: 12px;
+                    font-weight: 400;
+                    // margin-bottom: 10px;
+                    color: #12163E;
+                    input{
+                        margin-right: 10px;
+                    }
+                    
+                }
+                .woocommerce-form-login__submit{
+                    width: 100%;
+                    background: #12163E;
+                    border-radius: 5px;
+                    color: #ffff;
+                    padding: 1em 1.5em;
+                    margin-top: 20px;
+                }
+            }
+        }
+        .column{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin-bottom: 20px;
+              
+                .show-password-input{
+                    margin-top: 6px;
+                }
+                label{
+                    font-family: $inter;
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    color: #12163E;
+                    @media (max-width:$md) {
+                        font-size: 13px;
+                    }
+                }
+                input{
+                    padding:  1em;
+                    font-family: $inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    width: 100%;
+                    color: #12163E80;
+                    background-color: #ffff;
+                    border: none;
+                }
+            
+                }
+           
+        }
+    }
